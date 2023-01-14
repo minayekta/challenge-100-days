@@ -1,0 +1,27 @@
+html {
+    box-sizing: border-box;
+    margin: 10px auto;
+    font-family: "Open Sans", sans-serif;
+    font-family: "Roboto", sans-serif;
+    background-color: #343a40;
+  }
+  .container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    margin: 50px 0;
+  }
+  #boxes{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 30%;
+  }
+  #boxes div {
+    border: 1px solid white;
+    width: 50px;
+    height: 50px;
+    cursor: pointer;
+  }
